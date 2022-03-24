@@ -1,0 +1,103 @@
+.container-Article6-Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+.h1-Article6-Main{
+    color: rgb(0, 0, 0);
+    margin: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.p-head-Article6-Main{
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 75px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.p-Article6-Main{
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 75px;
+    font-size: 1.25rem;
+}
+
+.svg-Article6-Main{
+    position: absolute;
+    right: 25px;
+    transition: all linear .25s;
+
+}
+
+.p-title-Article6-Main{
+    font-size: 1.5em;
+    transition: all linear .15s;
+}
+
+.title-Article6-Main{
+   width: 100%;
+}
+
+.title-Article6-Main:hover > .p-title-Article6-Main{
+    color: #f65859;
+}
+
+.ArrowColor{
+    stroke:red;
+}
+
+.ArrowRotate{
+    transform: rotate(180deg);
+}
+
+.a-Article6-Main{
+    background-color: #5266df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: unset;
+    color: white;
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.a-Article6-Main:hover{
+    border: #5266df 2px solid;
+    background-color: #ffffff;
+    color: #5266df;
+}
+
+
+@media only screen and (max-width:1000px){
+    .container-Article6-Main{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:800px){ 
+      .container-Article6-Main{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:700px){ 
+    .container-Article6-Main{
+        width: 95%;
+     }
+    .p-title-Article6-Main{
+        font-size: 1em;
+    }
+}

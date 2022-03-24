@@ -1,0 +1,124 @@
+.container-Article1-Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-right: 0;
+    width: 100%;
+}
+
+.TEXT-Article1-Main{
+    display: inline-block;
+    padding: 75px;
+    padding-right: 25px ;
+    width: 50%;
+}
+
+.h1-Article1-Main{
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: 3rem;
+}
+
+.p-Article1-Main{
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 25px;
+    font-size: 1.25rem;
+}
+
+.IMG-Article1-Main{
+    display: inline-block;
+    position: relative;
+}
+
+.IMGArticle1{
+    width: 100%;
+}
+
+.blue-card-Article1-Main{
+    width: 77%;
+    height: 52%;
+    background-color: #5266df;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    border-radius: 200px 0 0 200px;
+    z-index: -1;
+}
+
+.btn-Article1-Main{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.btn-Chrome{
+    text-decoration: none;
+    background-color: #5266df;
+    border: unset;
+    color: white;
+    border-radius: 5px;
+    width: 165px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-Firefox{  
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.17);
+    border: unset;         
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 165px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-Chrome:hover{
+    border: #5266df 2px solid;
+    background-color: #ffffff;
+    color: #5266df;
+}
+
+.btn-Firefox:hover{           
+    border: #5e5f71 2px solid;
+    background-color: white;
+    color: #5e5f71;
+}
+
+@media only screen and (max-width:900px){
+    .container-Article1-Main{
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+    .IMG-Article1-Main{
+        width: 100%;    
+    }     
+    .TEXT-Article1-Main{
+        width: 100%;
+        padding: 25px;
+        padding-top: 75px;
+        text-align: center;
+    }
+    .btn-Article1-Main{
+        justify-content: center;
+    }   
+}
+
+@media only screen and (max-width:750px){
+    .container-Article1-Main{
+     margin-top: 125px;
+    }
+}

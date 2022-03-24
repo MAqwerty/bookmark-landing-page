@@ -1,0 +1,103 @@
+.container-Article3-Main{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.ArticleContainer-Article3-Main{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: row ;
+}
+
+.css-ahj2mt-MuiTypography-root{
+    display: flex;
+    align-items: center;
+}
+
+.div-TEXT-Article3-Main{
+    padding-left: 75px;
+}
+
+.h1-Article3-Main{
+    padding-bottom: 15px;
+}
+
+.p-Article3-Main{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.a-Article3-Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    background-color: #5266df;
+    color: white;
+    margin-top: 25px;
+}
+
+.a-Article3-Main:hover{
+    border: #5266df 2px solid;
+    background-color: #ffffff;
+    color: #5266df;
+}
+
+@media only screen and (max-width:1000px){
+    .div-TEXT-Article3-Main{
+        padding-left: 50px;
+    }
+    .img-Article3-Main{
+       width: 55%;
+    }
+    .css-18v1uup-MuiButtonBase-root-MuiTab-root{
+        margin: 0 !important;
+    }
+    .css-17vnx5l-MuiButtonBase-root-MuiTab-root{
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .ArticleContainer-Article3-Main{
+        display: flex ;
+        align-items: center ;
+        justify-content: center ;
+        flex-direction: column ;
+    }
+    .div-TEXT-Article3-Main{
+        padding: 25px;
+        padding-top: 75px;
+    }
+    .img-Article3-Main{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .img-Article3-Main{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .img-Article3-Main{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .img-Article3-Main{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .img-Article3-Main{
+        width: 100%;
+    }
+}

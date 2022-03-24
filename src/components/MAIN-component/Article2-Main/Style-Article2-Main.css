@@ -1,0 +1,23 @@
+.container-Article2-Main{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 125px;
+}
+
+.h1-Article2-Main{
+    text-align: center;
+    padding: 25px;
+}
+
+.p-Article2-Main{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width:800px){
+    .container-Article2-Main{
+        margin-top: 125px;
+        width: 75%;
+    }
+}

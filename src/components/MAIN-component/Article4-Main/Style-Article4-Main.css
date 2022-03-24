@@ -1,0 +1,23 @@
+.container-Article4-Main{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 125px;
+}
+
+.h1-Article4-Main{
+    text-align: center;
+    padding: 25px;
+}
+
+.p-Article4-Main{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width:900px){
+    .container-Article4-Main{
+        margin-top: 250px;
+        width: 75%;
+    }
+}

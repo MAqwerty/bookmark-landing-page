@@ -1,0 +1,25 @@
+{
+    "data":[
+        {   
+            "id":"class-chrome  container-Article5-Main",
+            "imgSVG":"./svg/logo-chrome.svg",
+            "title":"Add to Chrome",
+            "text":"Minimum version 62",
+            "link":"A"
+        },
+        {   
+            "id":"class-firefox  container-Article5-Main",
+            "imgSVG":"./svg/logo-firefox.svg",
+            "title":"Add to Firefox",
+            "text":"Minimum version 55",
+            "link":"B"
+        },
+        {   
+            "id":"class-opera  container-Article5-Main",
+            "imgSVG":"./svg/logo-opera.svg",
+            "title":"Add to Opera",
+            "text":"Minimum version 46",
+            "link":"C"
+        }
+    ]
+}
